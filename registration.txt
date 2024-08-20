@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>STUDENT REGISTRATION FORM </title>
+<style>
+ 
+  .form{
+   font-size:20px;
+   font-weight:bold;}
+   .logo{
+text-align:center;
+ }
+  
+</style>
+
+</head>
+<br>
+<body bgcolor="bg-secondary">
+<br>
+<div class="logo">
+<img src="mrec.jpg">
+</div>
+
+<h1><center> STUDENT REGISTRATION FORM</center></h1><br>
+<br>
+<div class="form">
+<label>Firstname</label>
+<input type="text" name="firstname"/><br><br>
+<label>Middlename</label>
+<input type="text" name="middlename"/><br><br>
+<label>lastname</label>
+<input type="text" name="lastname"/><br><br>
+<label>
+course
+</label>
+<select>
+<option value="text" name="course"/>course<br>
+<option value="text" name="BBA"/>BBA<br>
+<option value="text" name="BCA"/>BCA<br>
+<option value="text" name="B-tech"/>B-tech<br>
+<option value="text" name="m-tech"/>m-tech<br>
+</select>
+
+<br><br>
+<label>
+branch
+</label>
+<select>
+<option value="text" name="branch"/>branch<br>
+<option value="text" name="cse"/>cse<br>
+<option value="text" name="ece"/>ece<br>
+<option value="text" name="eee"/>eee<br>
+<option value="text" name="civil"/>civil<br>
+</select>
+<br><br>
+
+<label>
+gender
+</label><br>
+
+<input type="radio" id="option1" name="gender" value="male"/>male<br>
+<input type="radio" id="option2" name="gender" value="female"/>female<br>
+<input type="radio" id="option3" name="gender" value="other"/>other<br>
+<br>
+<label>
+phone
+</label>
+<select>
+<option value="text" name="countrycode"/>country<br>
+<option value="text" name="china"/>china<br>
+<option value="text" name="india"/>india<br>
+<option value="text" name="japan"/>japan<br>
+<option value="text" name="america"/>america<br>
+</select>
+<input type="text" name="phone" size="10"/><br>
+<br>
+Address
+<br>
+<textarea cols="80" rows="5" value="address"></textarea><br><br>
+<label>
+email
+</label>
+<br>
+<input type="text" name="email"/><br>
+<label>
+password
+</label>
+<br>
+<input type="password"  name="pass" id="pass"/><br>
+<label>
+re-password
+</label><br>
+<input type="password"  name="repass" id="repass"/><br><br>
+<button> submit</button>
+</div>
+</form>
+</body>
+</html>
